@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  margin: 20px;
+  max-width: 900px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+}
+h2 {
+  border-bottom: 2px solid #333; /* Simple line under the heading */
+  padding-bottom: 10px; /* Adds space between the text and the line */
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #555;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-info p {
+  margin: 5px 0;
+}
+
+.profile-photo img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.date {
+  text-align: right;
+  font-weight: bold;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h4 {
+  margin-bottom: 5px;
+}
+
+.project p {
+  margin: 5px 0;
+}
