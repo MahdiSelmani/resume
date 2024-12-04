@@ -13,12 +13,12 @@ Ce projet utilise Gatsby, un générateur de site statique (SSG), pour créer un
 
 1. Vous pouvez télécharger l'image directement depuis Docker Hub pour la tester (les étapes suivantes fourniront plus de détails). Notez que l'image publiée contient uniquement les fichiers générés par la commande build exécutée localement, afin d'éviter une taille trop grande.
    ```bash
-   docker pull selmanimahdi/resume:latest
+   docker pull selmanimahdi/resume
    ```
 
 2. Lancez un conteneur pour exécuter l'application :
    ```bash
-   docker run -p 8000:8000 selmanimahdi/resume:latest
+   docker run -p 8000:8000 selmanimahdi/resume
    ```
 3. Accédez à l'application dans votre navigateur à l'adresse suivante :
    ```bash
