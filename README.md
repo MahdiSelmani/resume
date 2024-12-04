@@ -18,7 +18,7 @@ Ce projet utilise Gatsby, un générateur de site statique (SSG), pour créer un
 
 2. Lancez un conteneur pour exécuter l'application :
    ```bash
-   docker run -p 8000:8000 resume
+   docker run -p 8000:8000 selmanimahdi/resume:latest
    ```
 3. Accédez à l'application dans votre navigateur à l'adresse suivante :
    ```bash
